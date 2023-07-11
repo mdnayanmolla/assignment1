@@ -244,7 +244,7 @@ body{
     background-color: #fff;
     border:1px solid rgba(167, 33, 98, 0.15);
 }
-.tell-us-input:focus{
+.tell-us-input:focus,.input-text-area:focus{
     border:1px solid rgba(167, 33, 98, 0.15);
     outline: none;
 }
