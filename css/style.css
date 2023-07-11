@@ -1,0 +1,112 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@100;300;400;700;900&display=swap');
+
+*{
+    
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: 'Lato', sans-serif;
+}
+.container{
+    width: 85%;
+    margin: 0 auto;
+}
+.banner{
+    background: #f8dae0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+.banner-content{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.banner-conent-left{
+    width: 50%;
+}
+.banner-conent-left h1{
+    font-size: 45px;
+    color: #000;
+    font-weight: 900;
+}
+.banner-conent-left p{
+    font-size: 16px;
+    color: #444;
+    padding: 10px 0;
+}
+.banner-btn{
+    padding: 10px 20px;
+    background-color: #E55473;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 10px;
+    display: inline-block;
+}
+/* .banner-conent-right{} */
+.banner-conent-right img{
+   width: 400px;
+}
+
+/*Our Featured Flowers Setion Start*/
+.heading{
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    padding: 100px 0;
+}
+.featured-heading{
+    width: 50%;
+}
+.featured-heading h2{
+    color: #000;
+    font-weight: 700;
+}
+.featured-heading p{
+    font-size: 16px;
+    color: #444;
+}
+.featured{
+    display: flex;
+    width: 100%;
+    padding-bottom: 100px;
+    justify-content: space-between;
+}
+.featured-content{
+    text-align: center;
+    width: 30%;
+    /* margin-right: 20px; */
+}
+.featured-content a{
+    color: #444;
+    font-size: 16px;
+    display: inline-block;
+    padding-top: 10px;
+}
+.featured-img-1,.featured-img-2,.featured-img-3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    height:400px;
+    display: flex;
+    align-items: end;
+    justify-content: center;
+}
+.featured-img-2{
+    background-color: rgba(5, 151, 160, 0.15);
+}
+.featured-img-1 img,.featured-img-3 img{
+    width:200px;
+} 
+.featured-img-2 img{
+    width:250px;
+}
+.featured-img-3{
+    background: rgba(71, 125, 17, 0.15);
+}
+/*Our Featured Flowers Setion End*/
