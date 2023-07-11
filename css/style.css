@@ -18,6 +18,7 @@ body{
     width: 100%;
     display: flex;
     align-items: center;
+    position: relative;
 }
 .banner-content{
     width: 100%;
@@ -51,6 +52,9 @@ body{
 /* .banner-conent-right{} */
 .banner-conent-right img{
    width: 400px;
+   position: absolute;
+   bottom: 0;
+   right: 0;
 }
 
 /*Our Featured Flowers Setion Start*/
@@ -59,7 +63,7 @@ body{
     text-align: center;
     display: flex;
     justify-content: center;
-    padding: 100px 0;
+    padding: 100px 0 70px 0;
 }
 .featured-heading{
     width: 50%;
@@ -109,4 +113,125 @@ body{
 .featured-img-3{
     background: rgba(71, 125, 17, 0.15);
 }
+.quick-delivery{
+    background: rgba(39, 39, 39, 0.05);
+    border-radius: 8px;
+    padding: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+.delivery{
+    width: 30%;
+    text-align: center;
+}
 /*Our Featured Flowers Setion End*/
+
+/*Hot Deal ! Sale Up To 25% Off Start*/
+.hot-deal{
+    background: rgba(229, 84, 115, 0.05);
+    border-radius: 5px;
+    padding: 100px 0;
+}
+.hot-deal-content{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hot-deal-left{
+    width: 50%;
+    text-align: center;
+}
+.hot-deal-left h2{
+    font-weight: 900;
+}
+.hot-deal-left p{
+    padding: 10px 0;
+}
+.hot-deal-right img{
+    width: 200px;
+}
+/*Hot Deal ! Sale Up To 25% Off End*/
+
+/*Instagram section Strat*/
+.instagram{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+ .instagram-content{
+    width: 23%;
+ }
+
+ .instagram-content img{
+    width: 100%;
+ }
+/*Instagram section End*/
+/*Get The Latest Deals Strat*/
+.latest-deals{
+    background-image: url("../asset/Rectangle 9.png") ;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    padding: 100px 0;
+    margin-bottom: 70px;
+    margin-top: 70px;
+}
+.latest-deals-content{
+    text-align: center;
+}
+.latest-deals-content h2{
+    font-weight: 900;
+    color: #000;
+    padding-bottom: 10px;
+}
+.deal-from{
+    padding: 30px 0 0 0;
+}
+.deal-input{
+   width: 40%;
+   padding: 12px 30px;
+   background-color: #fff;
+   border: none;
+   border-radius: 5px;
+}
+.deal-btn{
+    padding: 10px 30px;
+    background-color: #E55473;
+    color: #fff;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+}
+/*Get The Latest Deals End*/
+
+/*Footer Section Start*/
+footer{
+    background-color: #000;
+    padding: 100px 0;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.footer-content{
+    width: 50%;
+    color: #fff;
+    text-align: center;
+}
+.footer-content h1{
+    color:#fff;
+    font-weight: 900;
+}
+.footer-content h1 span{
+    color:#E55473;
+}
+.footer-content p{
+    color: rgba(255, 255, 255, 0.90);
+    padding: 10px 0;
+    font-size: 16px;
+}
+.copyright{
+    color:rgba(255, 255, 255, 0.40);
+    font-size: 16px;
+}
+/*Footer Section End*/
